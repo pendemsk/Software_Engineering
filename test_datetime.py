@@ -22,7 +22,7 @@ def test_tuesday():
     assert is_weekday()
 
 
-# Test Saturday is not a weekday
+# Test Saturday is not a day
 def test_saturday():
     # Mock .today() to return Saturday
     mock_datetime.datetime.today.return_value = saturday
